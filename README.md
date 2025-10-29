@@ -16,7 +16,7 @@ This application is deployed on Hugging Face Spaces and is publicly accessible.
 
 ### 🎬 2-Minute Video Walkthrough
 
-**Watch Video**: ((https://www.loom.com/share/3abcc1708d064bec8f383955a2cfac83))
+ ((https://www.loom.com/share/3abcc1708d064bec8f383955a2cfac83))
 ---
 
 ### 1. Problem Statement
