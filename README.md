@@ -75,7 +75,7 @@ python -m venv venv
 
 **Step 3: Install Dependencies Install all the required packages from the requirements.txt file.**
 ```bash
-pip install -r requirements.txt**
+pip install -r requirements.txt
 ```
 
 **Step 4: Configure Environment Variables The application requires an OpenAI API key to function.**
