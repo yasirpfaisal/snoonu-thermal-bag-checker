@@ -14,9 +14,9 @@ This application is deployed on Hugging Face Spaces and is publicly accessible.
 
 **Live App URL:** **https://huggingface.co/spaces/yasirp11/snoonu-thermal-bag-checker**
 
-### 🎬 2-Minute Video Walkthrough
+### 🎬 Quick Video Walkthrough
 
- ((https://www.loom.com/share/3abcc1708d064bec8f383955a2cfac83))
+ https://www.loom.com/share/3abcc1708d064bec8f383955a2cfac83
 ---
 
 ### 1. Problem Statement
