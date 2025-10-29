@@ -1,7 +1,7 @@
 # snoonu-thermal-bag-checker
 # 🤖 Snoonu AI Thermal Bag Inspector
 
-[cite_start]Yasir Pulikkal 
+Yasir Pulikkal 
 **Task:** AI Innovation Intern - Test Task 1: Thermal Bag Quality Checker
 
 This repository contains my submission for the Snoonu AI Innovation Intern test task. It is a functional web application that uses a multimodal AI model (GPT-4o) to analyze photos of courier thermal bags and determine if they are in acceptable condition for a shift.
@@ -12,7 +12,7 @@ This repository contains my submission for the Snoonu AI Innovation Intern test 
 
 This application is deployed on Hugging Face Spaces and is publicly accessible.
 
-**Live App URL:** **[Link to your Deployed Hugging Face Space]**
+**Live App URL:** **https://huggingface.co/spaces/yasirp11/snoonu-thermal-bag-checker**
 
 ### 🎬 2-Minute Video Walkthrough
 
@@ -22,7 +22,7 @@ This application is deployed on Hugging Face Spaces and is publicly accessible.
 
 ### 1. Problem Statement
 
-[cite_start]The task [cite: 4] [cite_start]is to create a tool (chatbot, app, or webhook) [cite: 4] [cite_start]that evaluates the quality of a courier's thermal bag from a single photo[cite: 5]. [cite_start]The tool must be able to distinguish between an acceptable and an unacceptable bag[cite: 7].
+The task is to create a tool (chatbot, app, or webhook) that evaluates the quality of a courier's thermal bag from a single photo.The tool must be able to distinguish between an acceptable and an unacceptable bag.
 
 ### 2. Solution Approach
 
@@ -31,11 +31,11 @@ Given the 2-day timeline and a small example set, training a custom computer vis
 I chose a modern, "AI-driven" approach that aligns with the "experimental, AI-powered projects"  goal of the internship. My solution is a **Gradio web app** that uses the **GPT-4o multimodal model** to perform "few-shot" visual analysis.
 
 **Why this stack?**
-* [cite_start]**Gradio:** Rapidly builds a clean, professional "small app"  UI for image uploads, perfectly matching the task requirement. [cite_start]My experience with Gradio  allowed for fast development.
+* **Gradio:** Rapidly builds a clean, professional "small app"  UI for image uploads, perfectly matching the task requirement. My experience with Gradio  allowed for fast development.
 * **GPT-4o (Vision API):** Leverages a powerful SOTA model to understand nuanced, human-like concepts like "cleanliness," "integrity," and "functionality" from an image with zero training data.
 * **Hugging Face Spaces:** The industry-standard platform for hosting and sharing AI/ML demos, demonstrating familiarity with the modern AI ecosystem.
 
-This solution proves I can "prototype and test AI-driven solutions to real operational challenges"   quickly and effectively.
+This solution proves I can "prototype and test AI-driven solutions to real operational challenges" quickly and effectively.
 
 ---
 
@@ -62,3 +62,36 @@ You can run this project on your local machine for testing.
 ```bash
 git clone https://github.com/yasirpfaisal/snoonu-thermal-bag-checker.git
 cd snoonu-thermal-bag-checker
+```
+
+**Step 2: Set Up a Virtual Environment**
+It's highly recommended to use a virtual environment to manage dependencies.
+
+*On Windows (PowerShell):*
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+**step 3: Install Dependencies Install all the required packages from the requirements.txt file.
+```bash
+pip install -r requirements.txt**
+```
+
+**Step 4: Configure Environment Variables The application requires an OpenAI API key to function.**
+*On Windows (PowerShell):*
+```Bash
+copy .env.example .env
+```
+Open the newly created .env file in your text editor.
+Paste your secret OpenAI API key into the file:
+```Bash
+OPENAI_API_KEY="sk-YourSecretOpenAI_API_KeyGoesHere"
+```
+
+**Step 5: Run the Application**
+```Bash
+python app.py
+```
+
+The application will launch and print a local URL (e.g., http://127.0.0.1:7860) in your terminal. Open this link in your web browser to use the app
