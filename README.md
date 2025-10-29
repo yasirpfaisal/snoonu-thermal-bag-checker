@@ -16,9 +16,7 @@ This application is deployed on Hugging Face Spaces and is publicly accessible.
 
 ### 🎬 2-Minute Video Walkthrough
 
-* **[yasirpfaisal/snoonu-thermal-bag-checker](https://github.com/yasirpfaisal/snoonu-thermal-bag-checker)** - 29 October 2025
-    * [![Watch the video demo](https://cdn.loom.com/sessions/thumbnails/THUMBNAIL_ID-original.gif)](https://www.loom.com/share/VIDEO_ID)
-
+* **[yasirpfaisal/snoonu-thermal-bag-checker]([https://github.com/yasirpfaisal/snoonu-thermal-bag-checker](https://www.loom.com/share/3abcc1708d064bec8f383955a2cfac83))** 
 ---
 
 ### 1. Problem Statement
